@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4269E4C1F6CC7EA003B4465 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E4B1F6CC7EA003B4465 /* AppDelegate.m */; };
+		A4269E4F1F6CC7EA003B4465 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E4E1F6CC7EA003B4465 /* ViewController.m */; };
+		A4269E521F6CC7EA003B4465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4269E501F6CC7EA003B4465 /* Main.storyboard */; };
+		A4269E541F6CC7EA003B4465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4269E531F6CC7EA003B4465 /* Assets.xcassets */; };
+		A4269E571F6CC7EA003B4465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4269E551F6CC7EA003B4465 /* LaunchScreen.storyboard */; };
+		A4269E5A1F6CC7EA003B4465 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E591F6CC7EA003B4465 /* main.m */; };
+		A4269E641F6CC7EA003B4465 /* EmDragGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E631F6CC7EA003B4465 /* EmDragGestureRecognizerTests.m */; };
+		A4269E6F1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E6E1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.m */; };
+		A4269E7F1F6CC88F003B4465 /* EMDragGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4269E7E1F6CC88F003B4465 /* EMDragGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4269E601F6CC7EA003B4465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4269E3F1F6CC7EA003B4465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4269E461F6CC7EA003B4465;
+			remoteInfo = EmDragGestureRecognizer;
+		};
+		A4269E6B1F6CC7EA003B4465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4269E3F1F6CC7EA003B4465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4269E461F6CC7EA003B4465;
+			remoteInfo = EmDragGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4269E471F6CC7EA003B4465 /* EmDragGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmDragGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4269E4A1F6CC7EA003B4465 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4269E4B1F6CC7EA003B4465 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4269E4D1F6CC7EA003B4465 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4269E4E1F6CC7EA003B4465 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4269E511F6CC7EA003B4465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4269E531F6CC7EA003B4465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4269E561F6CC7EA003B4465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4269E581F6CC7EA003B4465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4269E591F6CC7EA003B4465 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4269E5F1F6CC7EA003B4465 /* EmDragGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmDragGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4269E631F6CC7EA003B4465 /* EmDragGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmDragGestureRecognizerTests.m; sourceTree = "<group>"; };
+		A4269E651F6CC7EA003B4465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4269E6A1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmDragGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4269E6E1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmDragGestureRecognizerUITests.m; sourceTree = "<group>"; };
+		A4269E701F6CC7EA003B4465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4269E7D1F6CC88F003B4465 /* EMDragGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDragGestureRecognizer.h; sourceTree = "<group>"; };
+		A4269E7E1F6CC88F003B4465 /* EMDragGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDragGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4269E441F6CC7EA003B4465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E5C1F6CC7EA003B4465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E671F6CC7EA003B4465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4269E3E1F6CC7EA003B4465 = {
+			isa = PBXGroup;
+			children = (
+				A4269E491F6CC7EA003B4465 /* EmDragGestureRecognizer */,
+				A4269E621F6CC7EA003B4465 /* EmDragGestureRecognizerTests */,
+				A4269E6D1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests */,
+				A4269E481F6CC7EA003B4465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4269E481F6CC7EA003B4465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4269E471F6CC7EA003B4465 /* EmDragGestureRecognizer.app */,
+				A4269E5F1F6CC7EA003B4465 /* EmDragGestureRecognizerTests.xctest */,
+				A4269E6A1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4269E491F6CC7EA003B4465 /* EmDragGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A4269E7C1F6CC88F003B4465 /* EMDragGestureRecognizer */,
+				A4269E4A1F6CC7EA003B4465 /* AppDelegate.h */,
+				A4269E4B1F6CC7EA003B4465 /* AppDelegate.m */,
+				A4269E4D1F6CC7EA003B4465 /* ViewController.h */,
+				A4269E4E1F6CC7EA003B4465 /* ViewController.m */,
+				A4269E501F6CC7EA003B4465 /* Main.storyboard */,
+				A4269E531F6CC7EA003B4465 /* Assets.xcassets */,
+				A4269E551F6CC7EA003B4465 /* LaunchScreen.storyboard */,
+				A4269E581F6CC7EA003B4465 /* Info.plist */,
+				A4269E591F6CC7EA003B4465 /* main.m */,
+			);
+			path = EmDragGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		A4269E621F6CC7EA003B4465 /* EmDragGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4269E631F6CC7EA003B4465 /* EmDragGestureRecognizerTests.m */,
+				A4269E651F6CC7EA003B4465 /* Info.plist */,
+			);
+			path = EmDragGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		A4269E6D1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4269E6E1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.m */,
+				A4269E701F6CC7EA003B4465 /* Info.plist */,
+			);
+			path = EmDragGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+		A4269E7C1F6CC88F003B4465 /* EMDragGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A4269E7D1F6CC88F003B4465 /* EMDragGestureRecognizer.h */,
+				A4269E7E1F6CC88F003B4465 /* EMDragGestureRecognizer.m */,
+			);
+			name = EMDragGestureRecognizer;
+			path = ../../../../Desktop/HXDragGestureRecognizer/EMDragGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4269E461F6CC7EA003B4465 /* EmDragGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4269E731F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizer" */;
+			buildPhases = (
+				A4269E431F6CC7EA003B4465 /* Sources */,
+				A4269E441F6CC7EA003B4465 /* Frameworks */,
+				A4269E451F6CC7EA003B4465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmDragGestureRecognizer;
+			productName = EmDragGestureRecognizer;
+			productReference = A4269E471F6CC7EA003B4465 /* EmDragGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4269E5E1F6CC7EA003B4465 /* EmDragGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4269E761F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizerTests" */;
+			buildPhases = (
+				A4269E5B1F6CC7EA003B4465 /* Sources */,
+				A4269E5C1F6CC7EA003B4465 /* Frameworks */,
+				A4269E5D1F6CC7EA003B4465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4269E611F6CC7EA003B4465 /* PBXTargetDependency */,
+			);
+			name = EmDragGestureRecognizerTests;
+			productName = EmDragGestureRecognizerTests;
+			productReference = A4269E5F1F6CC7EA003B4465 /* EmDragGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4269E691F6CC7EA003B4465 /* EmDragGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4269E791F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizerUITests" */;
+			buildPhases = (
+				A4269E661F6CC7EA003B4465 /* Sources */,
+				A4269E671F6CC7EA003B4465 /* Frameworks */,
+				A4269E681F6CC7EA003B4465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4269E6C1F6CC7EA003B4465 /* PBXTargetDependency */,
+			);
+			name = EmDragGestureRecognizerUITests;
+			productName = EmDragGestureRecognizerUITests;
+			productReference = A4269E6A1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4269E3F1F6CC7EA003B4465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = HeminWon;
+				TargetAttributes = {
+					A4269E461F6CC7EA003B4465 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					A4269E5E1F6CC7EA003B4465 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A4269E461F6CC7EA003B4465;
+					};
+					A4269E691F6CC7EA003B4465 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A4269E461F6CC7EA003B4465;
+					};
+				};
+			};
+			buildConfigurationList = A4269E421F6CC7EA003B4465 /* Build configuration list for PBXProject "EmDragGestureRecognizer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4269E3E1F6CC7EA003B4465;
+			productRefGroup = A4269E481F6CC7EA003B4465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4269E461F6CC7EA003B4465 /* EmDragGestureRecognizer */,
+				A4269E5E1F6CC7EA003B4465 /* EmDragGestureRecognizerTests */,
+				A4269E691F6CC7EA003B4465 /* EmDragGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4269E451F6CC7EA003B4465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4269E571F6CC7EA003B4465 /* LaunchScreen.storyboard in Resources */,
+				A4269E541F6CC7EA003B4465 /* Assets.xcassets in Resources */,
+				A4269E521F6CC7EA003B4465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E5D1F6CC7EA003B4465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E681F6CC7EA003B4465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4269E431F6CC7EA003B4465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4269E4F1F6CC7EA003B4465 /* ViewController.m in Sources */,
+				A4269E5A1F6CC7EA003B4465 /* main.m in Sources */,
+				A4269E4C1F6CC7EA003B4465 /* AppDelegate.m in Sources */,
+				A4269E7F1F6CC88F003B4465 /* EMDragGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E5B1F6CC7EA003B4465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4269E641F6CC7EA003B4465 /* EmDragGestureRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4269E661F6CC7EA003B4465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4269E6F1F6CC7EA003B4465 /* EmDragGestureRecognizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4269E611F6CC7EA003B4465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4269E461F6CC7EA003B4465 /* EmDragGestureRecognizer */;
+			targetProxy = A4269E601F6CC7EA003B4465 /* PBXContainerItemProxy */;
+		};
+		A4269E6C1F6CC7EA003B4465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4269E461F6CC7EA003B4465 /* EmDragGestureRecognizer */;
+			targetProxy = A4269E6B1F6CC7EA003B4465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4269E501F6CC7EA003B4465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4269E511F6CC7EA003B4465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4269E551F6CC7EA003B4465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4269E561F6CC7EA003B4465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4269E711F6CC7EA003B4465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4269E721F6CC7EA003B4465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4269E741F6CC7EA003B4465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4269E751F6CC7EA003B4465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4269E771F6CC7EA003B4465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmDragGestureRecognizer.app/EmDragGestureRecognizer";
+			};
+			name = Debug;
+		};
+		A4269E781F6CC7EA003B4465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmDragGestureRecognizer.app/EmDragGestureRecognizer";
+			};
+			name = Release;
+		};
+		A4269E7A1F6CC7EA003B4465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmDragGestureRecognizer;
+			};
+			name = Debug;
+		};
+		A4269E7B1F6CC7EA003B4465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QY5M3GFBMY;
+				INFOPLIST_FILE = EmDragGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.heminwon.hem.EmDragGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmDragGestureRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4269E421F6CC7EA003B4465 /* Build configuration list for PBXProject "EmDragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4269E711F6CC7EA003B4465 /* Debug */,
+				A4269E721F6CC7EA003B4465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4269E731F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4269E741F6CC7EA003B4465 /* Debug */,
+				A4269E751F6CC7EA003B4465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4269E761F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4269E771F6CC7EA003B4465 /* Debug */,
+				A4269E781F6CC7EA003B4465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4269E791F6CC7EA003B4465 /* Build configuration list for PBXNativeTarget "EmDragGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4269E7A1F6CC7EA003B4465 /* Debug */,
+				A4269E7B1F6CC7EA003B4465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4269E3F1F6CC7EA003B4465 /* Project object */;
+}
